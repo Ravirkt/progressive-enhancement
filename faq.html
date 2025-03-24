@@ -7,6 +7,46 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 		<link href="assets/styles.css" rel="stylesheet">
 		<style>
+
+			body {
+				display: grid;
+				grid-template-columns: auto;
+				grid-template-rows: auto;
+				gap: 1em;
+			}
+
+		
+			summary {
+				border: 2px solid black;
+				width: fit-content;
+				padding: 1em;
+				border-radius: 10px;
+			}
+
+			details > summary {
+				list-style-type: none;
+			}
+
+			.summary-container {
+				display: flex;
+				flex-direction: row;
+				justify-content: left;
+				align-items: center;
+				gap: 0.5em;
+			}
+
+			
+
+			
+
+
+
+			
+
+
+			
+
+			
 			/* Schrijf hier gewoon je CSS voor dit component */
 
 			/* Hint: Dit component kun je volledig met HTML en CSS bouwen */
@@ -16,6 +56,8 @@
 	</head>
 	<body>
 		<h1>Veelgestelde vragen</h1>
+
+		
 
 
 		<!-- Content (waar nog wat HTML omheen moet 😄):
@@ -32,6 +74,45 @@
 
 
 		<!-- Hint: Dit stukje HTML geeft het misschien al weg :) -->
+
+		<details>
+			<summary class="summary-container">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/>
+				  </svg>
+				
+				Wat is frontend development?
+
+			</summary>
+			Een frontend developer ontwerpt en bouwt websites in HTML, CSS en JavaScript. Deze frontend talen leer je bij ons, je hebt dus geen voorkennis nodig.
+		</details>
+
+		<details>
+			<summary class="summary-container">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/>
+				  </svg>
+				
+				Wat is frontend development?
+
+			</summary>
+			Een frontend developer ontwerpt en bouwt websites in HTML, CSS en JavaScript. Deze frontend talen leer je bij ons, je hebt dus geen voorkennis nodig.
+		</details>
+
+		<details>
+			<summary class="summary-container">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/>
+				  </svg>
+				
+				Wat is frontend development?
+
+			</summary>
+			Een frontend developer ontwerpt en bouwt websites in HTML, CSS en JavaScript. Deze frontend talen leer je bij ons, je hebt dus geen voorkennis nodig.
+		</details>
+
+
+
 		<details open>
 			<summary>Demo video</summary>
 			<video src="assets/faq.mp4" width="765" height="769" controls muted autoplay loop>
